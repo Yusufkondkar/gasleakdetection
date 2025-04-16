@@ -1,0 +1,48 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between; /* Space out the elements */
+	background-color: #ffffff; /* Changed background color to white */
+	padding: 20px;
+	color: #333; /* Adjusted text color for contrast */
+	width: 100%; /* Ensure full width */
+	max-width: 1200px; /* Match the max width of the content */
+	margin: 0 auto; /* Center the header */
+}
+
+.logo-link {
+	text-decoration: none; /* Remove underline from the link */
+}
+
+.logo {
+	width: 150px; /* Increased size */
+	height: 150px; /* Increased size */
+	margin-right: 15px;
+}
+
+.title {
+	font-family: 'Arial', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.nav-buttons {
+	display: flex;
+	flex-direction: column; /* Stack buttons vertically */
+	gap: 10px; /* Add spacing between buttons */
+}
+
+.nav-link {
+	text-decoration: none;
+	color: white;
+	background-color: #4caf50;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.nav-link:hover {
+	background-color: #45a049;
+}

@@ -1,0 +1,48 @@
+.footer {
+	background-color: #f4f4f9;
+	display: flex; /* Use flexbox for layout */
+	justify-content: center; /* Center content horizontally */
+	align-items: center; /* Center content vertically */
+	padding: 10px 20px; /* Add padding */
+	color: #333;
+	font-size: 14px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	max-width: 1200px; /* Restrict to standard laptop size */
+	margin: 0 auto; /* Center the footer horizontally */
+	box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+	left: 0; /* Ensure it starts from the left edge */
+	right: 0; /* Ensure it ends at the right edge */
+}
+
+.footer-content {
+	text-align: center; /* Center-align text */
+	width: 100%; /* Match the width of the header */
+	margin: 0 auto; /* Center the footer content */
+}
+
+.footer p {
+	margin: 5px 0; /* Add spacing between lines */
+}
+
+.developers {
+	text-align: center; /* Center-align the "Developed by" section */
+	margin-bottom: 10px; /* Add spacing between sections */
+}
+
+.developers ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.developers li {
+	font-size: 14px;
+	color: #555;
+}
+
+.copyright {
+	font-size: 14px;
+	color: #555;
+}

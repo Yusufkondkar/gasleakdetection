@@ -1,0 +1,37 @@
+.historical-data {
+	text-align: center;
+	padding: 20px;
+	background-color: #f9f9f9;
+}
+
+.historical-data h1 {
+	font-family: 'Arial', sans-serif;
+	font-size: 28px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.historical-data table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+.historical-data th, .historical-data td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+}
+
+.historical-data th {
+	background-color: #4caf50;
+	color: white;
+}
+
+.historical-data tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.historical-data tr:hover {
+	background-color: #ddd;
+}
